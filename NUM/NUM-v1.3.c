@@ -62,7 +62,7 @@ int main (void)
 	{
 		do
 		{
-			printf("this is the V1.2 feature. and the bug had fixed in this V1.3 update");
+			printf("this is the V1.2 feature. and the bug had fixed in this V1.3 update\n");
 			scanf("%d",&rangeo);
 			scanf("%d",&range);
 			scanf("%d",&berange);
