@@ -10,7 +10,7 @@ int main (void)
 	long long result2;
 	long long time;
 	long long test;
-	long long tested_num
+	long long tested_num;
 	int change;
 	int main_change;
 	long long berangeo;
@@ -60,24 +60,24 @@ int main (void)
 	}
 	if (change == 3)
 	{
-		printf("plz support the bugs on Wuffles797@gmail.com this is a new feature");
+		printf("plz support the bugs on Wuffles797@gmail.com this is a new feature\n");
 		do
 		{
 			printf("What is the num?\n");
-			scanf("%d", &test);
+			scanf("%lld", &test);
 
 			printf("How many times?\n");
-			scanf("%d", &times);
+			scanf("%lld", &time);
 
 			if (time >= 0)
 			{
-				tested_num = 1
-					wjile (time > 0)
-					{
-						tested_num = tested_num * test;
-						time --;
-					}
-				printf(" NUM crossed: %d \n", tested_num);
+				tested_num = test;
+				do
+				{
+					tested_num = tested_num * test;
+					time --;
+				}while((time - 1) > 0);
+				printf(" NUM crossed: %lld \n", tested_num);
 
 			}else
 			{
